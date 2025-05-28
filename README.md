@@ -1,2 +1,14 @@
-# noaa-aep-selenium-downloader
-A Python utility that reads NOAA station IDs from an Excel workbook, drives a headless Chrome browser via Selenium to the NOAA Annual Exceedance Probability charts, and automatically pulls down the exact “Download CSV” for each station into region-named folders.
+## Prerequisites
+
+- Python 3.8+  
+- Chrome browser installed  
+- `pip install selenium webdriver-manager pandas openpyxl`
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/khairulua/noaa-aep-selenium-downloader.git
+cd noaa-aep-selenium-downloader
+pip install selenium webdriver-manager pandas openpyxl
